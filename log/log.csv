@@ -1,3 +1,5 @@
 date,contest,problem,result,time_minutes,tags,review,notes
 2026-06-28,abc441,b,AC,7,"累積和",n,"vectorのインデックス番号に注意する"
 2026-06-30,abc407,b,AC,10,"全探索",y,"fixed と setprecision で固定小数点表記の表示を操れる"
+2026-07-02,abc460,b,WA,15,"その他",y,""
+2026-07-02,abc444,b,AC,5,"基数",n,""
