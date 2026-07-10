@@ -8,3 +8,5 @@ date,contest,problem,result,time_minutes,tags,review,notes
 2026-07-05,abc451,b,AC,7,"",n,""
 2026-07-05,abc461,b,AC,10,"",n,""
 2026-07-09,abc429,b,AC,5,"なし",n,""
+2026-07-10,abc405,c,AC,10,"累積和",n,"計算時間に注意"
+2026-07-10,abc435,c,AC,20,"",n,"区切りを動かす"
