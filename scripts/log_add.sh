@@ -11,7 +11,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 LOG_FILE="$ROOT_DIR/log/log.csv"
 
 if [ ! -f "$LOG_FILE" ]; then
-  echo "date,contest,problem,result,time_minutes,tags,review,notes" > "$LOG_FILE"
+  echo "date,contest,problem,result,time_minutes,tags,review,notes,explanation_path" > "$LOG_FILE"
 fi
 
 read -rp "Contest ID (例: abc300): " CONTEST
@@ -21,12 +21,14 @@ read -rp "Time spent (minutes): " TIME
 read -rp "Tags (例: dp,graph ※カンマ区切り): " TAGS
 read -rp "Needs review later? (y/n): " REVIEW
 read -rp "Notes (任意): " NOTES
+read -rp "Explanation path/URL (任意。まだ無ければ空欄でOK): " EXPLANATION
 
 DATE=$(date +%Y-%m-%d)
 
 # CSV中のダブルクォートをエスケープ
 TAGS_ESCAPED=$(echo "$TAGS" | sed 's/"/""/g')
 NOTES_ESCAPED=$(echo "$NOTES" | sed 's/"/""/g')
+EXPLANATION_ESCAPED=$(echo "$EXPLANATION" | sed 's/"/""/g')
 
-echo "$DATE,$CONTEST,$PROBLEM,$RESULT,$TIME,\"$TAGS_ESCAPED\",$REVIEW,\"$NOTES_ESCAPED\"" >> "$LOG_FILE"
+echo "$DATE,$CONTEST,$PROBLEM,$RESULT,$TIME,\"$TAGS_ESCAPED\",$REVIEW,\"$NOTES_ESCAPED\",\"$EXPLANATION_ESCAPED\"" >> "$LOG_FILE"
 echo "Logged to $LOG_FILE"
