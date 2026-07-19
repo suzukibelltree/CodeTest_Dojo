@@ -14,4 +14,5 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-07-13,abc426,b,AC,7,"",n,"",""
 2026-07-13,abc417,c,giveup,20,"",n,"連想配列を用いる",""
 2026-07-16,abc421,b,AC,10,"",n,"",""
-2026-07-19,abc463,c,WA,30,"二分探索",y,"upper_boundを用いた二分探索",""
+2026-07-19,abc463,c,WA,30,"二分探索",y,"upper_boundを用いた二分探索","problems/abc463/c/explanation.md"
+2026-07-19,abc344,c,AC,20,"二分探索",n,"二分探索の練習(lower_bound)",""
