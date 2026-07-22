@@ -19,3 +19,4 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-07-19,abc353,c,giveup,20,"二分探索",y,"二分探索って最初に言われてないと絶対思いつかん","problems/abc353/c/explanation.md"
 2026-07-20,abc465,b,AC,7,"",n,"",""
 2026-07-20,abc460,c,WA,15,"尺取り法",y,"惜しかった","problems/abc460/c/reference.md"
+2026-07-22,abc398,c,giveup,30,"連想配列",y,"","problems/abc398/c/reference.md"
