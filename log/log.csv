@@ -23,3 +23,5 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-07-26,abc408,c,giveup,30,"",y,"",""
 2026-07-27,abc466,b,AC,10,"",n,"",""
 2026-07-27,abc440,b,AC,7,"",,"",""
+2026-07-31,abc462,b,giveup,15,"",y,"",""
+2026-07-31,abc442,b,AC,10,"",n,"",""
