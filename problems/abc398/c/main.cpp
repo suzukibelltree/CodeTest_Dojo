@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+vector<long long> a(300000);
 int main()
 {
     cin.tie(nullptr);
@@ -8,37 +9,29 @@ int main()
 
     // ここに解法を書く
     int n;
-    cin >> n;
-    vector<pair<long long, long long>> a(n);
+    cin >> n; // O(N^2)だとTLE
+    map<long long, int> mp;
     for (int i = 0; i < n; i++)
     {
-        cin >> a[i].first;
-        a[i].second = i + 1;
+        cin >> a[i];
+        mp[a[i]] += 1;
     }
-    sort(a.rbegin(), a.rend());
-    int ans = a[0].second;
-    for (int i = 2; i < n; i++)
+    int ans = -1;
+    for (const auto &[key, val] : mp)
     {
-        if (a[i - 2].first != a[i - 1].first && a[i - 1].first != a[i].first)
+        if (key > ans && val == 1)
         {
-            ans = a[i - 1].second;
-            cout << ans << endl;
-            return 0;
-        }
-        else if (i == n - 1 && a[i - 1] != a[i])
-        {
-            ans = a[i].second;
-            cout << ans << endl;
-            return 0;
+            ans = key;
         }
     }
-    if (n == 1)
+    for (int i = 0; i < n; i++)
     {
-        cout << ans << endl;
+        if (a[i] == ans)
+        {
+            cout << i + 1 << endl;
+            return 0;
+        }
     }
-    else
-    {
-        cout << -1 << endl;
-    }
+    cout << -1;
     return 0;
 }

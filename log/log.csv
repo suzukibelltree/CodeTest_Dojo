@@ -28,3 +28,5 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-08-01,abc453,b,AC,10,"",n,"",""
 2026-08-01,abc413,c,MLE,15,"キュー",y,"メモリでエラー","problems/abc413/c/reference.md"
 2026-08-01,abc433,b,AC,7,"",n,"",""
+2026-08-01,abc378,c,AC,15,"map",n,"同じ値が直前に現れた位置をmapで保存する",""
+2026-08-01,abc398,c,AC,20,"map",n,"「その数の登場回数」をmapでカウント",""
