@@ -30,3 +30,4 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-08-01,abc433,b,AC,7,"",n,"",""
 2026-08-01,abc378,c,AC,15,"map",n,"同じ値が直前に現れた位置をmapで保存する",""
 2026-08-01,abc398,c,AC,20,"map",n,"「その数の登場回数」をmapでカウント",""
+2026-08-03,abc403,c,giveup,20,"set",y,"方針立たず","problems/abc403/c/reference.md"
