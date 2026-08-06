@@ -33,3 +33,5 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-08-03,abc403,c,giveup,20,"set",y,"方針立たず","problems/abc403/c/reference.md"
 2026-08-06,abc469,b,AC,10,"",n,"各条件を変数でおくとわかりやすい",""
 2026-08-06,abc435,b,AC,20,"",n,"問題設定が地味にややこしい",""
+2026-08-06,abc167,c,AC,30,"bit全探索",n,"2^nのパターンの全探索にはbit全探索を用いる",""
+2026-08-06,abc085,c,AC,20,"全探索",n,"forループを3重ではな重にできる",""
