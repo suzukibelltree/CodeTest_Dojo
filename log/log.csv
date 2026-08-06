@@ -31,3 +31,5 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-08-01,abc378,c,AC,15,"map",n,"同じ値が直前に現れた位置をmapで保存する",""
 2026-08-01,abc398,c,AC,20,"map",n,"「その数の登場回数」をmapでカウント",""
 2026-08-03,abc403,c,giveup,20,"set",y,"方針立たず","problems/abc403/c/reference.md"
+2026-08-06,abc469,b,AC,10,"",n,"各条件を変数でおくとわかりやすい",""
+2026-08-06,abc435,b,AC,20,"",n,"問題設定が地味にややこしい",""
