@@ -35,3 +35,5 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-08-06,abc435,b,AC,20,"",n,"問題設定が地味にややこしい",""
 2026-08-06,abc167,c,AC,30,"bit全探索",n,"2^nのパターンの全探索にはbit全探索を用いる",""
 2026-08-06,abc085,c,AC,20,"全探索",n,"forループを3重ではな重にできる",""
+2026-08-07,abc358,c,AC,15,"bit全探索",n,"bit全探索の作法を覚える",""
+2026-08-07,abc 374,c,AC,15,"bit全探索",n,"",""
