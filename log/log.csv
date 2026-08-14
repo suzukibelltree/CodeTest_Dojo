@@ -43,3 +43,6 @@ date,contest,problem,result,time_minutes,tags,review,notes,explanation_path
 2026-08-10,abc368,c,AC,20,"計算量削減",n,"",""
 2026-08-12,abc470,b,AC,7,"",n,"",""
 2026-08-12,abc381,c,TLE,25,"",y,"計算量の削減方法がわからない","problems/abc381/c/reference.md"
+2026-08-13,abc370,c,giveup,20,"文字列操作",y,"辞書順に並べるのが分からん",""
+2026-08-14,abc468,c,giveup,20,"",y,"N!通りを試す実装方法が分からない",""
+2026-08-14,abc468,c,AC,10,"string",n,"[retry: 2026-08-14 giveup] 辞書順はpermutation_searchを使う","problems/abc468/c/reference.md"
